@@ -29,6 +29,12 @@
 *.suo
 *.db
 *.ipch
+*.db-shm
+*.db-wal
+*.opendb
+*.backup.json
+LearnC/LearnC/x64/
+LearnC/x64/
 
 # Executables
 *.exe
