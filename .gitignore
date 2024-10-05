@@ -20,6 +20,7 @@
 *.mod
 *.smod
 
+
 # Compiled Static libraries
 *.lai
 *.la
@@ -35,6 +36,7 @@
 *.backup.json
 LearnC/LearnC/x64/
 LearnC/x64/
+LearnC/.vs/
 
 # Executables
 *.exe
