@@ -25,6 +25,10 @@
 *.la
 *.a
 *.lib
+*.vsidx
+*.suo
+*.db
+*.ipch
 
 # Executables
 *.exe
