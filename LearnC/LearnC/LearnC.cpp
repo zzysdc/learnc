@@ -14,14 +14,17 @@ int main()
     
 
     ////***************leetcode0027************************
-    leetcode0027_solution solution;
-    vector<int> nums = { 0,1,2,2,3,0,4,2 };
-    int val = 2;
-    int result = solution.removeElement(nums, val);
-    std::cout << result;
+    //leetcode0027_solution solution;
+    //vector<int> nums = { 0,1,2,2,3,0,4,2 };
+    //int val = 2;
+    //int result = solution.removeElement(nums, val);
+    //std::cout << result;
 
-
-
+    ////***************leetcode0977************************
+    leetcode0977_solution solution;
+    vector<int> nums = { -7,-3,2,3,11 };
+    vector<int> result = solution.sortedSquares(nums);
+    std::copy(result.begin(), result.end(), std::ostream_iterator<int>(std::cout, " "));
 
 
     return 0;

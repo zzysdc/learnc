@@ -132,6 +132,7 @@
     <ClCompile Include="LearnC.cpp" />
     <ClCompile Include="leetcode0027.cpp" />
     <ClCompile Include="leetcode0704.cpp" />
+    <ClCompile Include="leetcode0977.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode_solutions.h" />

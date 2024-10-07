@@ -9,3 +9,8 @@ class leetcode0027_solution {
 public:
 	int removeElement(vector<int>& nums, int val);
 };
+
+class leetcode0977_solution {
+public:
+	vector<int> sortedSquares(vector<int>& nums);
+};
