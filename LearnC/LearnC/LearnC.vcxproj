@@ -134,9 +134,6 @@
     <ClCompile Include="leetcode0704.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common_h.h" />
-    <ClInclude Include="leetcode0027.h" />
-    <ClInclude Include="leetcode0704.h" />
     <ClInclude Include="leetcode_solutions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

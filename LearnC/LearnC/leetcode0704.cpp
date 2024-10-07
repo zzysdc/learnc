@@ -1,4 +1,4 @@
-#include "leetcode0704.h"
+#include "leetcode_solutions.h"
 
 int leetcode0704_solution::search(vector<int>& nums, int target)
 {
