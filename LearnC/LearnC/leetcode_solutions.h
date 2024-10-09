@@ -14,3 +14,8 @@ class leetcode0977_solution {
 public:
 	vector<int> sortedSquares(vector<int>& nums);
 };
+
+class leetcode0209_solution {
+public:
+	int minSubArrayLen(int target, vector<int>& nums);
+};

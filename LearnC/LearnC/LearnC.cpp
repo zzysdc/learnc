@@ -21,10 +21,18 @@ int main()
     //std::cout << result;
 
     ////***************leetcode0977************************
-    leetcode0977_solution solution;
-    vector<int> nums = { -7,-3,2,3,11 };
-    vector<int> result = solution.sortedSquares(nums);
-    std::copy(result.begin(), result.end(), std::ostream_iterator<int>(std::cout, " "));
+    //leetcode0977_solution solution;
+    //vector<int> nums = { -7,-3,2,3,11 };
+    //vector<int> result = solution.sortedSquares(nums);
+    //std::copy(result.begin(), result.end(), std::ostream_iterator<int>(std::cout, " "));
+
+    ////***************leetcode0209************************
+    leetcode0209_solution solution;
+    vector<int> nums = { 1,2,1,3,1,1 };
+    int target = 5;
+    int result = solution.minSubArrayLen(target,nums);
+    std::cout << result;
+
 
 
     return 0;
