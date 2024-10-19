@@ -14,7 +14,7 @@ int leetcode0209_solution::minSubArrayLen(int target, vector<int>& nums) {
 	int min_lens = 1000000;
 	int block_sum = 0;
 	int i = 0;
-	for (size_t j = 0; j < nums.size(); j++)
+	for (int j = 0; j < nums.size(); j++)
 	{
 		block_sum = block_sum + nums[j];
 		while (block_sum >= target) {

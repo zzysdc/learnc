@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="LearnC.cpp" />
     <ClCompile Include="leetcode0027.cpp" />
+    <ClCompile Include="leetcode0059.cpp" />
     <ClCompile Include="leetcode0209.cpp" />
     <ClCompile Include="leetcode0704.cpp" />
     <ClCompile Include="leetcode0977.cpp" />

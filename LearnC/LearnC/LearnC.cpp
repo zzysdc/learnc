@@ -1,7 +1,5 @@
 ﻿// LearnC.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
 
-#include <iostream>
 #include "leetcode_solutions.h"
 int main()
 {
@@ -27,14 +25,34 @@ int main()
     //std::copy(result.begin(), result.end(), std::ostream_iterator<int>(std::cout, " "));
 
     ////***************leetcode0209************************
-    leetcode0209_solution solution;
-    vector<int> nums = { 1,2,1,3,1,1 };
-    int target = 5;
-    int result = solution.minSubArrayLen(target,nums);
-    std::cout << result;
+    //leetcode0209_solution solution;
+    //vector<int> nums = { 1,2,1,3,1,1 };
+    //int target = 5;
+    //int result = solution.minSubArrayLen(target,nums);
+    //std::cout << result;
 
+    ////***************leetcode0209************************
+    leetcode0059_solution solution;
+    int n = 4;
+    vector<vector<int>> result = solution.generateMatrix(n);
+    print2DVector(result);
 
 
     return 0;
 }
 
+void print1DVector(vector<int>& vec)
+{
+    for (const auto& elem : vec) {
+        std::cout << elem << " ";
+    }
+}
+void print2DVector(vector<vector<int>>& vec)
+{
+    for (const auto& row : vec) {
+        for (const auto& col : row) {
+            std::cout << col << " ";
+        }
+        std::cout << std::endl;
+    }
+}
