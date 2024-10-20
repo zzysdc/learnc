@@ -32,14 +32,31 @@ int main()
     //std::cout << result;
 
     ////***************leetcode0209************************
-    leetcode0059_solution solution;
-    int n = 4;
-    vector<vector<int>> result = solution.generateMatrix(n);
-    print2DVector(result);
+    //leetcode0059_solution solution;
+    //int n = 4;
+    //vector<vector<int>> result = solution.generateMatrix(n);
+    //print2DVector(result);
 
 
+    ////***************leetcode0209************************
+    leetcode0203_solution solution;
+    int val = 6;
+    ListNode* head = new ListNode(1);
+    head->next = new ListNode(2); 
+    head->next->next = new ListNode(6); 
+    head->next->next->next = new ListNode(3);
+    head->next->next->next->next = new ListNode(4);
+    head->next->next->next->next->next = new ListNode(5);
+    head->next->next->next->next->next->next = new ListNode(6);
+ 
+    ListNode* result = solution.removeElements(head, val);
+    printSingleList(result);
     return 0;
 }
+
+
+
+
 
 void print1DVector(vector<int>& vec)
 {
@@ -54,5 +71,13 @@ void print2DVector(vector<vector<int>>& vec)
             std::cout << col << " ";
         }
         std::cout << std::endl;
+    }
+}
+
+void printSingleList(ListNode* head)
+{
+    while(head != NULL){
+        std::cout << head->val << " ";
+        head = head->next;
     }
 }

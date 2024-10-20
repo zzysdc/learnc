@@ -1,12 +1,5 @@
-#include <vector>
-#include <iostream>
-#include <vector>
-
-
-using namespace std;
-void print1DVector(vector<int>& vec);
-void print2DVector(vector<vector<int>>& vec);
-
+#pragma once
+#include "common.h"
 
 class leetcode0704_solution {
 public:
@@ -31,4 +24,9 @@ public:
 class leetcode0059_solution {
 public:
 	vector<vector<int>> generateMatrix(int n);
+};
+
+class leetcode0203_solution {
+public:
+	ListNode* removeElements(ListNode* head, int val);
 };
