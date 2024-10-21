@@ -30,3 +30,25 @@ class leetcode0203_solution {
 public:
 	ListNode* removeElements(ListNode* head, int val);
 };
+
+class MyLinkedList{ //leetcode0707_solution
+public:
+	struct myListNode 
+	{
+		int val;
+		myListNode* next;
+		myListNode(int x) : val(x), next(NULL) {}
+	};
+	MyLinkedList() {
+		_dummy_head = new myListNode(0);
+		_size = 0;
+	};
+	int get(int index);
+	void addAtHead(int val);
+	void addAtTail(int val);
+	void addAtIndex(int index, int val);
+	void deleteAtIndex(int index);
+private:
+	myListNode* _dummy_head = NULL;
+	int _size = 0;
+};

@@ -17,4 +17,11 @@ typedef struct _ListNode {
 
 void print1DVector(vector<int>& vec);
 void print2DVector(vector<vector<int>>& vec);
-void printSingleList(ListNode* head);
+template<typename T>
+void printSingleList(T head) {
+	while (head != NULL) {
+		std::cout << head->val << " ";
+		head = head->next;
+	}
+	std::cout << std::endl;
+};

@@ -10,7 +10,6 @@ int main()
     //int result = solution.search(nums, target);
     //std::cout << result;
     
-
     ////***************leetcode0027************************
     //leetcode0027_solution solution;
     //vector<int> nums = { 0,1,2,2,3,0,4,2 };
@@ -37,22 +36,43 @@ int main()
     //vector<vector<int>> result = solution.generateMatrix(n);
     //print2DVector(result);
 
-
     ////***************leetcode0209************************
-    leetcode0203_solution solution;
-    int val = 6;
-    ListNode* head = new ListNode(1);
-    head->next = new ListNode(2); 
-    head->next->next = new ListNode(6); 
-    head->next->next->next = new ListNode(3);
-    head->next->next->next->next = new ListNode(4);
-    head->next->next->next->next->next = new ListNode(5);
-    head->next->next->next->next->next->next = new ListNode(6);
- 
-    ListNode* result = solution.removeElements(head, val);
-    printSingleList(result);
+    //leetcode0203_solution solution;
+    //int val = 6;
+    //ListNode* head = new ListNode(1);
+    //head->next = new ListNode(2); 
+    //head->next->next = new ListNode(6); 
+    //head->next->next->next = new ListNode(3);
+    //head->next->next->next->next = new ListNode(4);
+    //head->next->next->next->next->next = new ListNode(5);
+    //head->next->next->next->next->next->next = new ListNode(6);
+    //ListNode* result = solution.removeElements(head, val);
+    //printSingleList(result);
+
+    ////***************leetcode0707************************
+    MyLinkedList *myLinkedList = new MyLinkedList();
+    myLinkedList->addAtHead(4);
+    std::cout << myLinkedList->get(1) << endl;
+    myLinkedList->addAtHead(1);
+    myLinkedList->addAtHead(5);
+    myLinkedList->deleteAtIndex(3);
+    myLinkedList->addAtHead(7);
+    std::cout << myLinkedList->get(3) << endl;
+    std::cout << myLinkedList->get(3) << endl;
+    std::cout << myLinkedList->get(3) << endl;
+    myLinkedList->addAtHead(1);
+    myLinkedList->deleteAtIndex(4);
+
+
+  
+
     return 0;
 }
+
+
+
+
+
 
 
 
@@ -74,10 +94,3 @@ void print2DVector(vector<vector<int>>& vec)
     }
 }
 
-void printSingleList(ListNode* head)
-{
-    while(head != NULL){
-        std::cout << head->val << " ";
-        head = head->next;
-    }
-}
