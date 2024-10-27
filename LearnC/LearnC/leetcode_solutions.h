@@ -52,3 +52,9 @@ private:
 	myListNode* _dummy_head = NULL;
 	int _size = 0;
 };
+
+
+class leetcode0206_solution {
+public:
+	ListNode* reverseList(ListNode* head);
+};
