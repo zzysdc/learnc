@@ -53,7 +53,6 @@ private:
 	int _size = 0;
 };
 
-
 class leetcode0206_solution {
 public:
 	ListNode* reverseList(ListNode* head);
@@ -62,4 +61,9 @@ public:
 class leetcode0024_solution {
 public:
 	ListNode* swapPairs(ListNode* head);
+};
+
+class leetcode0019_solution {
+public:
+	ListNode* removeNthFromEnd(ListNode* head, int n);
 };

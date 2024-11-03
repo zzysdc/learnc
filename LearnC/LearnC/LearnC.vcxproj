@@ -130,6 +130,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LearnC.cpp" />
+    <ClCompile Include="leetcode0019.cpp" />
     <ClCompile Include="leetcode0024.cpp" />
     <ClCompile Include="leetcode0027.cpp" />
     <ClCompile Include="leetcode0059.cpp" />
