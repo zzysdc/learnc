@@ -58,3 +58,8 @@ class leetcode0206_solution {
 public:
 	ListNode* reverseList(ListNode* head);
 };
+
+class leetcode0024_solution {
+public:
+	ListNode* swapPairs(ListNode* head);
+};

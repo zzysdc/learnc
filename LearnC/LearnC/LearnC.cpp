@@ -64,14 +64,25 @@ int main()
     //myLinkedList->deleteAtIndex(4);
 
     ////***************leetcode0206************************
-    leetcode0206_solution solution;
+    //leetcode0206_solution solution;
+    //ListNode* test = new ListNode(1);
+    //test->next = new ListNode(2);
+    //test->next->next = new ListNode(3);
+    //test->next->next->next = new ListNode(4);
+    //test->next->next->next->next = new ListNode(5);
+    //ListNode* result = solution.reverseList(test);
+    //printSingleList(result);
+
+    ////***************leetcode0024************************
+    leetcode0024_solution solution;
     ListNode* test = new ListNode(1);
     test->next = new ListNode(2);
     test->next->next = new ListNode(3);
     test->next->next->next = new ListNode(4);
     test->next->next->next->next = new ListNode(5);
-    ListNode* result = solution.reverseList(test);
+    ListNode* result = solution.swapPairs(test);
     printSingleList(result);
+
 
     return 0;
 }
