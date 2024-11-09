@@ -72,3 +72,9 @@ class leetcode0207_solution {
 public:
 	ListNode* getIntersectionNode(ListNode* headA, ListNode* headB);
 };
+
+class leetcode0142_solution {
+public:
+	ListNode* detectCycle(ListNode* head);
+};
+
