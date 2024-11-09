@@ -67,3 +67,8 @@ class leetcode0019_solution {
 public:
 	ListNode* removeNthFromEnd(ListNode* head, int n);
 };
+
+class leetcode0207_solution {
+public:
+	ListNode* getIntersectionNode(ListNode* headA, ListNode* headB);
+};

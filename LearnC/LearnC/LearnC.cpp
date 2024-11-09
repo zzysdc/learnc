@@ -82,16 +82,23 @@ int main()
     //test->next->next->next->next = new ListNode(5);
     //ListNode* result = solution.swapPairs(test);
     //printSingleList(result);
+    
+    ////***************leetcode0019************************
+    //leetcode0019_solution solution;
+    //ListNode* test = new ListNode(1);
+    //test->next = new ListNode(2);
+    //test->next->next = new ListNode(3);
+    //test->next->next->next = new ListNode(4);
+    //test->next->next->next->next = new ListNode(5);
+    //int n = 1;
+    //ListNode* result = solution.removeNthFromEnd(test,n);
+    //printSingleList(result);
 
-    leetcode0019_solution solution;
-    ListNode* test = new ListNode(1);
-    test->next = new ListNode(2);
-    test->next->next = new ListNode(3);
-    test->next->next->next = new ListNode(4);
-    test->next->next->next->next = new ListNode(5);
-    int n = 1;
-    ListNode* result = solution.removeNthFromEnd(test,n);
-    printSingleList(result);
+    ////***************leetcode0207************************
+    //NO TEST
+
+
+
     return 0;
 }
 
