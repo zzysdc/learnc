@@ -78,3 +78,7 @@ public:
 	ListNode* detectCycle(ListNode* head);
 };
 
+class leetcode0242_solution {
+public:
+	bool isAnagram(string s, string t) {};
+};

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -134,8 +134,10 @@
     <ClCompile Include="leetcode0024.cpp" />
     <ClCompile Include="leetcode0027.cpp" />
     <ClCompile Include="leetcode0059.cpp" />
+    <ClCompile Include="leetcode0142.cpp" />
     <ClCompile Include="leetcode0203.cpp" />
     <ClCompile Include="leetcode0206.cpp" />
+    <ClCompile Include="leetcode0207.cpp" />
     <ClCompile Include="leetcode0209.cpp" />
     <ClCompile Include="leetcode0704.cpp" />
     <ClCompile Include="leetcode0707.cpp" />
