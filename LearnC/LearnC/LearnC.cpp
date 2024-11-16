@@ -103,6 +103,15 @@ int main()
     ////***************leetcode0242************************
     //NO TEST
 
+    ////***************leetcode1002************************
+    //NO TEST
+    leetcode1002_solution solution;
+    vector <string> test;
+    test.push_back("bella");
+    test.push_back("label"); 
+    test.push_back("roller");
+    vector<string> result = solution.commonChars(test);
+
     return 0;
 }
 

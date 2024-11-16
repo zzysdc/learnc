@@ -80,5 +80,10 @@ public:
 
 class leetcode0242_solution {
 public:
-	bool isAnagram(string s, string t) {};
+	bool isAnagram(string s, string t);
+};
+
+class leetcode1002_solution {
+public:
+	vector<string> commonChars(vector<string>& words);
 };

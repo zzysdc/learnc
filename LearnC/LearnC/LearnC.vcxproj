@@ -142,6 +142,7 @@
     <ClCompile Include="leetcode0704.cpp" />
     <ClCompile Include="leetcode0707.cpp" />
     <ClCompile Include="leetcode0977.cpp" />
+    <ClCompile Include="leetcode1002.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
