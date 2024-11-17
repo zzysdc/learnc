@@ -29,6 +29,5 @@ vector<string>  leetcode1002_solution::commonChars(vector<string>& words) {
 			_result.push_back(_cur_string);
 		}
 	}
-	string _s;
 	return _result;
 }

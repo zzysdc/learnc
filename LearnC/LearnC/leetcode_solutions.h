@@ -87,3 +87,8 @@ class leetcode1002_solution {
 public:
 	vector<string> commonChars(vector<string>& words);
 };
+
+class leetcode0349_solution {
+public:
+	vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
+};

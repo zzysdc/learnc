@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <iostream>
-
+#include <unordered_set>
 using namespace std;
 
 typedef struct _ListNode {
