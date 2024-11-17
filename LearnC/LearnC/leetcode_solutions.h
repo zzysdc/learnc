@@ -92,3 +92,8 @@ class leetcode0349_solution {
 public:
 	vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
 };
+
+class leetcode0202_solution {
+public:
+	bool isHappy(int n);
+};
